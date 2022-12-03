@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+        <form>
+            <fieldset class="account">
+                <legend>Account</legend>
+                <p><input type="text" placeholder="Full Name"></p>
+                <p><input type="text" placeholder="Email"></p>
+                <p><input type="password" placeholder="Password"></p>
+            </fieldset>
+            <div>
+                <fieldset class="birth">
+                    <legend>Date of Birth</legend>
+                    <input type="text" placeholder="DD">
+                    <input type="text" placeholder="MM">
+                    <input type="text" placeholder="YYYY">
+                </fieldset>
+                <fieldset class="gender">
+                    <legend>Gender</legend>
+                    <table>
+                        <tr>
+                            <td><input type="button" value="Male"></td>
+                            <td><input type="button" value="Female"></td>
+                        </tr>
+                    </table>
+
+                
+                </fieldset>
+                </div>
+                <fieldset class="payment">
+                    <legend>Payment</legend>
+                    <table>
+                        <tr>
+                            <td><input type="button" class="active" value="Credit Card"></td>
+                            <td><input type="button"  value="Paypal"></td>
+                        </tr>
+                    </table>
+                    <p><input type="text" placeholder="Card Number"></p>
+                    <table>
+                    <tr>
+                        <td><input type="text" placeholder="Card CVC"></td>
+                    <td>
+                        <select> 
+                            <option>01 Jan</option>
+                            <option>01 Fr</option>
+                            <option>01 Mar</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select> 
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                        </select>
+                    </td>
+                    </tr>
+                    </table>
+                </fieldset>
+            </div>
+            <fieldset class="checkbox">
+                <legend>Terms and Conditions</legend>
+                <input id="Checkbox1" name="Checkbox1" type="checkbox" value="Admin" />
+                <label for="Checkbox1">I accept the terms and conditions for signing up to this service, and <a>hereby confirm I have read the privacy policy.</a> </label>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

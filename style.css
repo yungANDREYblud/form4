@@ -1,0 +1,92 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    background-color: #E3E3E3;
+}
+section{
+    background-color: #fff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+.account, .birth, .gender, .payment, .checkbox{
+    border: none;
+}
+.account legend, .birth legend, .gender legend, .payment legend, .checkbox legend {
+    color: #F0A500;
+    font-weight: 600;
+}
+.account input, .birth input, .payment input{
+    width: 100%;
+    height: 40px;
+    background-color: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    border-radius: 2px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.birth input{
+    width: 70px;
+}
+.birth input:nth-last-child(1){
+    width: 90px;
+}
+
+.gender input{
+    background-color: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    padding: 10px 40px;
+    color: #757575;
+}
+.gender input:hover, .payment input.active{
+    background-color: #F0A500;
+    color: #ffff;
+}
+.gender table{
+    border-spacing: 0px;
+}
+.gender table td{
+    padding: 0;
+}
+
+form div{
+    display: flex;
+}
+.payment table td{
+    width: 50%;
+    padding: 0;
+}
+.payment table{
+    width: 100%;
+    border-spacing: 0px;
+}
+.payment table input{
+    border-spacing: 0px;
+    height: 60px;
+}
+
+
+.payment select{
+    height: 60px;
+}
+.payment table tr{
+    padding: 50%;
+}
+.payment table select{
+    margin-left: 5%;
+    width: 70px;
+}
+.checkbox label{
+    color: #E7E7E7;
+    font-size: 15px;
+}
+.checkbox label a{
+    margin-left: 4.5%;
+}
+
+
+
+    
